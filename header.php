@@ -5,7 +5,7 @@
 	<title><?php bloginfo('name')?>-<?php bloginfo('description');?></title>
 
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/font-awesome.min.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url')?>" media="all" />
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/stylee.css" media="all" />
 </head>
 <?php wp_head();?>
 <body <?php body_class();?>>

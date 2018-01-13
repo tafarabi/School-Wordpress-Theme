@@ -1,20 +1,11 @@
 <?php get_header();?>
 	<!--top-header ends here-->
-	
-	<!-- banner starts here -->
-	<div class="banner">
-	<div class="banner-cont">
-	<h1>Your Child Can Be A Genius</h1>
-<p>Fun & Learning</p>
-</div>
- 
-</div>
-	<!-- banner end here -->
+		<?php putRevSlider("fashion") ?>
 <!-- row1 start -->
 	<div class="row1">
 	<div class="box1">
 	<div class="icont" >
-	<div class="i-class">
+	<div class="i-class"> 
 	<i class="fa fa-book circle-yes" style="background-color:#00A7F4"></i></div>
 	<h2>BEST EDUCATION</h2>
 	</div>
